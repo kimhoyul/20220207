@@ -7,6 +7,5 @@ public:
 	Wall();
 	Wall(int NewX, int NewY);
 	virtual ~Wall();
-
 };
 
