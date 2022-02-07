@@ -3,6 +3,7 @@ class Actor
 {
 public:
 	Actor();
+	Actor(int NewX, int NewY);
 
 	virtual ~Actor();
 
@@ -12,7 +13,7 @@ public:
 
 	inline virtual void SetActorLocation(int NewX, int NewY);
 	inline virtual void SetShape(char NewShape);
-	inline virtual char GetShpe() { return Shape; }
+	inline virtual char GetShape() { return Shape; }
 	inline virtual int GetX() { return X; }
 	inline virtual int GetY() { return Y; }
 

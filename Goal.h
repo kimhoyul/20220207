@@ -3,5 +3,9 @@
 
 class Goal : public Actor
 {
+public:
+	Goal();
+	virtual ~Goal();
+
 };
 
